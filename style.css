@@ -1,0 +1,192 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed&display=swap');
+
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: 'Barlow Condensed', sans-serif;
+}
+
+body{
+    background-color:black;
+}
+
+.header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 10%;
+    background: transparent;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+}
+
+.logo{
+    font-size: 40px;
+    color: azure;
+    text-decoration: none;
+    font-weight: 600;
+    transition: .5s;
+}
+
+.logo:hover{
+    color:darkcyan;
+}
+
+.navbar a{
+    font-size: 20px;
+    color:cadetblue;
+    text-decoration:none;
+    font-weight: 600;
+    margin: 25px;
+    transition: .3s;
+}
+
+.navbar a:hover,
+.navbar a.active {
+    color:cyan;
+}
+
+.home{
+    background: url('/images/man.jpeg') no-repeat;
+    background-position:right ;
+    background-size: 35%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    padding: 0 10%;
+    color: antiquewhite;
+}
+
+.home-content{
+    max-width: 600px;
+}
+.home-content h1{
+    font-size: 60px;
+    font-weight: 600;
+}
+.home-content p{
+    font-size: 20px;
+    font-weight: 200;
+    color:darkgrey;
+    margin:  20px 0 40px;
+}
+
+.home-content .btn-box {
+    display: flex;
+    width : 160px;
+    height:50px;
+    
+}
+.btn-box a{
+    display:inline-flex;
+    justify-content: center;
+    align-items: center;
+    width:160px;
+    height:60px;
+    border: 2px solid aqua;
+    border-radius: 7px;
+    font-size: 20px;
+    color: aquamarine;
+    text-decoration: none;
+    font-weight: 700;
+    letter-spacing: 1px;
+    transition: .5s;
+}
+.btn-box a:hover{
+    background-color: aqua;
+    color: darkslategray;
+}
+
+.home-img {
+    position: absolute;
+    top: 0;
+    right: 30px;
+    width : 400px;
+    height: 100%;
+    background:transparent;
+    transition: 0.3s;
+
+}
+.home-img:hover{
+    background-color: black;
+    opacity: 0.6;
+}
+.about-content{
+    margin:20%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    
+}
+.about h1{
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 50px;
+    color:aqua;
+    
+}
+.about p{
+    font-family:'Barlow Condensed', sans-serif;
+    font-size:20px ;
+    color:aliceblue;
+    margin-bottom: 50%;
+    color:aliceblue;
+    
+}
+.pcontent{
+    margin: 20%;
+
+}
+.phead{
+    font-family:'Barlow Condensed', sans-serif ;
+    font-size: 40px;
+    color:aqua;
+}
+.plist{
+    margin-top:20px;
+}   
+.plist a{
+    text-decoration: none;
+    font-size: 25px;
+    color:aliceblue;
+    font-weight: 500;
+    transition: .3s;
+}
+.plist a:hover{
+    color:lightblue;
+    font-size: 30px;
+}   
+
+.ccontent{
+    margin: 10%;
+}
+
+.chead{
+    font-family:'Barlow Condensed', sans-serif ;
+    font-size: 40px;
+    color:aqua;
+}
+.clist{
+    margin-top:20px;
+    
+}   
+.clist a{
+    text-decoration: none;
+    font-size: 25px;
+    color:aliceblue;
+    font-weight: 500;
+    transition: .3s;
+    margin-top: 10%;
+}
+.clist a:hover{
+    color:lightblue;
+    font-size: 30px;
+}   
+.pic{
+    background: url(images/proj.png);
+    background-size: 50%;
+
+}
