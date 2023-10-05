@@ -51,7 +51,7 @@ body{
 }
 
 .home{
-    background: url('/images/man.jpeg') no-repeat;
+    background: url('man.jpeg') no-repeat;
     background-position:right ;
     background-size: 35%;
     height: 100vh;
@@ -186,7 +186,7 @@ body{
     font-size: 30px;
 }   
 .pic{
-    background: url(images/proj.png);
+    background: url('proj.png');
     background-size: 50%;
 
 }
